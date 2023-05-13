@@ -1,0 +1,155 @@
+.videobg {
+    height: 690px;
+    margin-top: 60px;
+}
+.videobg video {
+    width: 100%;
+    height: 690px;
+    object-fit: cover;
+}
+.imagemenu {
+    display: flex;
+}
+.imagemenu li {
+    margin-right: 24px;
+}
+.imagemenu li a:hover img {
+    opacity: 0.7;
+}
+.imagemenu li:last-child {
+    margin-right: 0;
+}
+.imagemenu img {
+    max-width: 432px;
+    width: 100%;
+}
+.imagemenu li h2:nth-child(1) {
+    margin: calc(var(--base_lh) / 2) 0;
+    text-align: right;
+}
+.imagemenu li h2:nth-child(2) {
+    margin: calc(var(--base_lh) / 2) 0;
+    text-align: right;
+}
+.contentwrap_left .section_tt_wrap {
+    min-width: 280px;
+    margin-right: 10.5%;
+}
+.contentwrap_right .section_tt_wrap {
+    min-width: 282px;
+    margin-left: 10.5%;
+}
+.contentwrap_right .section_tt_wrap .more_btn {
+    justify-content: flex-end;
+}
+.contentwrap_right .section_tt_wrap .main_tt {
+    text-align: right;
+}
+.productlist {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+}
+.productlist::-webkit-scrollbar {
+    height: 10px;
+}
+.productlist::-webkit-scrollbar-track {
+    background: #fadfe0;
+    border-radius: 10px;
+}
+.productlist::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    width: auto;
+    border-radius: 10px;
+}
+.productlist .product {
+    margin: 0 12px;
+    margin-bottom: var(--base_lh);
+}
+.productlist .product .product_name {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.productlist .product .price {
+    text-align: right;
+    font-weight: 500;
+}
+.col_wrap {
+    display: flex;
+    margin-top: calc(var(--base_lh) * 2);
+}
+.col_wrap .col {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+.col_wrap .col:last-child {
+    margin-right: 0;
+}
+.col_wrap .col img {
+    max-width: 432px;
+    width: 100%;
+}
+.sns_wrap {
+    margin-top: calc(var(--base_lh) * 2);
+}
+.sns_wrap .sns {
+    display: flex;
+}
+.sns_wrap .sns:nth-child(2) {
+    margin-top: var(--base_lh);
+}
+.sns_wrap .sns img {
+    max-width: 432px;
+    width: 100%;
+}
+.sns_wrap .sns li {
+    margin-right: 24px;
+}
+.sns_wrap .sns li:last-child {
+    margin-right: 0;
+}
+.subscribe_sec .subscribe_img {
+    width: 68%;
+    height: 435px;
+    background: url(../images/football_2.jpg) center center / cover no-repeat;
+    text-align: center;
+    word-break: keep-all;
+}
+.subscribe_sec .main_tt {
+    color: var(--white);
+}
+.subscribe_sec .subscribe_wrap {
+    background: var(--secondary);
+    padding: calc(var(--base_lh) * 5) 58px;
+    width: 32%;
+    min-width: 418px;
+    display: inline-block;
+}
+.subscribe_sec .subscribe_wrap .section_tt {
+    color: var(--white);
+    margin-bottom: var(--base_lh);
+}
+.subscribe_sec .subscribe_wrap .subscribe {
+    font-size: 0;
+    display: flex;
+}
+.subscribe_sec .subscribe_wrap .subscribe input {
+    width: 432px;
+    color: var(--white);
+    background: transparent;
+    font-size: var(--base_fs);
+    border: 1px solid var(--white);
+    padding: 19px;
+}
+.subscribe_sec .subscribe_wrap .subscribe input::placeholder {
+    color: var(--white);
+}
+.subscribe_sec .subscribe_wrap .subscribe button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
