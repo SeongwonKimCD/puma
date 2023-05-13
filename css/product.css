@@ -96,6 +96,7 @@
     font-size: 18px;
     margin-right: 24px;
     margin-bottom: var(--base_lh);
+    color: var(--base_fc)!important;
 }
 .product_detail .pro_tt .product_size button:hover {
     border: 1px solid var(--primary);
