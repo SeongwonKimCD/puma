@@ -96,6 +96,7 @@
     transition: 0.3s;
     line-height: var(--base_lh);
     padding: var(--base_lh) calc(var(--base_lh) * 2);
+    color: var(--base_fc)!important;
 }
 .active, .filterlist_wrap .filter:hover {
     color: var(--primary);
