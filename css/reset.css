@@ -55,5 +55,5 @@ img {
     display: block;
 }
 input:matches([type="button"],[type="submit"], [type="reset"]), input[type="file"]::-webkit-file-upload-button, button {
-	color: #333333;
+	color: #333333!important;
 }
