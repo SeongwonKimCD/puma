@@ -45,7 +45,7 @@ header {
 .h_container {
     display: flex;
     position: relative;
-    max-width: 1820px;
+    max-width: 1800px;
     margin: 0 auto;
     padding: 0 10px;
     width: 100%;
@@ -189,7 +189,7 @@ body {
 }
 .contentwrap {
     position: relative;
-    max-width: 1820px;
+    max-width: 1800px;
     width: 100%;
     margin: 0 auto;
     padding: calc(var(--base_lh) * 3) 10px;
@@ -221,7 +221,7 @@ body {
 }
 .categoryttwrap {
     position: relative;
-    max-width: 1820px;
+    max-width: 1800px;
     width: 100%;
     margin: 60px auto 0 auto;
     padding: var(--base_lh) 10px;
@@ -240,7 +240,7 @@ body {
 .filterwrap {
     display: flex;
     position: relative;
-    max-width: 1820px;
+    max-width: 1800px;
     padding: 0 10px;
     width: 100%;
     margin: 0 auto;
@@ -257,7 +257,7 @@ body {
 .selectedfilterwrap {
     display: flex;
     position: relative;
-    max-width: 1820px;
+    max-width: 1800px;
     padding: 30px 10px;
     width: 100%;
     margin: 0 auto;
@@ -297,7 +297,7 @@ footer {
 }
 .footerwrap {
     position: relative;
-    max-width: 1820px;
+    max-width: 1800px;
     width: 100%;
     margin: 0 auto;
     padding: calc(var(--base_lh) * 2) 10px var(--base_lh) 10px;
